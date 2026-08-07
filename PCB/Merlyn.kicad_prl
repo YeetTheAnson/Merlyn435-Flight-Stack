@@ -33,6 +33,7 @@
       "footprint_text",
       "footprint_anchors",
       "ratsnest",
+      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -49,8 +50,8 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffab",
-    "zone_display_mode": 0
+    "visible_layers": "ffffffff_ffffffff_fffffff5_fff7ffff",
+    "zone_display_mode": 1
   },
   "git": {
     "repo_type": "",

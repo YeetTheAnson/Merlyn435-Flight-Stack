@@ -1,4 +1,4 @@
-(footprint "JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
+(footprint "ESC Header"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
+	(property "Value" "ESC Header"
 		(at 0 3.98 0)
 		(layer "F.Fab")
 		(uuid "f746771a-f836-4002-8489-4182699dfdbe")
@@ -351,11 +351,25 @@
 		(uuid "33cd9eb2-bba9-4d23-81e6-58c59a90020f")
 	)
 	(pad "2" smd roundrect
+		(at -4.8 1.875)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "43ea382d-d5b4-416b-824d-0c0d3f9a3fbe")
+	)
+	(pad "2" smd roundrect
 		(at -2.5 -2)
 		(size 0.6 1.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e23fbc73-1ab9-40d3-ace1-a2039e6d428d")
+	)
+	(pad "2" smd roundrect
+		(at 4.8 1.875)
+		(size 1.2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "0bf61256-c3e5-4d2b-9a9d-c776777d07b0")
 	)
 	(pad "3" smd roundrect
 		(at -1.5 -2)
@@ -398,20 +412,6 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "76c6f79a-73cb-4f15-bf9d-e864e2da062f")
-	)
-	(pad "MP" smd roundrect
-		(at -4.8 1.875)
-		(size 1.2 1.8)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.208333)
-		(uuid "43ea382d-d5b4-416b-824d-0c0d3f9a3fbe")
-	)
-	(pad "MP" smd roundrect
-		(at 4.8 1.875)
-		(size 1.2 1.8)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.208333)
-		(uuid "0bf61256-c3e5-4d2b-9a9d-c776777d07b0")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib/lcsc/easyeda2kicad.3dshapes/SM08B-SRSS-TB (LF)(SN)--3DModel-STEP-269445.STEP"
