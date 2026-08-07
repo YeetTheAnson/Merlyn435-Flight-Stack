@@ -1,4 +1,4 @@
-26281868255554173
+26283654434350928
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104290,7 +104290,7 @@ ESC Header
 JST SH series connector, SM08B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
 connector JST SH horizontal
 0
-10
+18
 8
 easyeda2kicad
 FIL_2450FM07D0034T
@@ -104439,6 +104439,13 @@ VQFN-24_L4.0-W4.0-P0.50-TL-EP2.7
 0
 25
 25
+easyeda2kicad
+VTX Pad
+
+
+0
+4
+4
 easyeda2kicad
 WSON-8_L6.0-W5.0-P1.27-BL-EP
 
