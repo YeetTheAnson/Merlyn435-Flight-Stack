@@ -1,4 +1,4 @@
-(footprint "Buzzer Pad"
+(footprint "Power Pad"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -56,11 +56,11 @@
 		)
 	)
 	(attr smd)
-	(fp_text user "BZ"
-		(at 1.4 -0.8 270)
+	(fp_text user "3"
+		(at 1.175 -1.575 270)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "33c81292-75e7-4f36-9d29-134983c7b048")
+		(uuid "2dd6f21e-8637-4bff-a105-d1ca6d5eb124")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -70,11 +70,11 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "+"
-		(at -1.28 -1.7 270)
+	(fp_text user "G"
+		(at -0.425 -1.6 270)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "41d59b22-917a-4cc2-8fbe-1b2d0c582ac9")
+		(uuid "40c7e06f-47da-4e9e-a998-39d0231dc930")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -84,11 +84,25 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "-"
-		(at 0.325 -1.7 270)
+	(fp_text user "5"
+		(at -2 -1.6 270)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b46d162d-772c-4685-b208-006c21852778")
+		(uuid "4d07bf53-4071-4e60-988c-173f18185bd0")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "POWER"
+		(at -1.9 -1.55 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6b994a7d-c169-4a1f-97fc-b8f2726240d9")
 		(effects
 			(font
 				(size 0.7 0.7)
@@ -99,18 +113,25 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.9 0)
+		(at -1.6 0)
+		(size 1.1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2272727273)
+		(uuid "0e789f4f-895b-4371-b679-89c9ed3ec0da")
+	)
+	(pad "2" smd roundrect
+		(at 0 0)
+		(size 1.1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2272727273)
+		(uuid "6e43d1e8-da01-43a9-bd8c-4d616374ed7e")
+	)
+	(pad "3" smd roundrect
+		(at 1.6 0)
 		(size 1.1 1.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2272727273)
 		(uuid "dbdb2782-70eb-456a-bedd-f1408d68ef92")
-	)
-	(pad "2" smd roundrect
-		(at 0.7 0)
-		(size 1.1 1.6)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.2272727273)
-		(uuid "5a040d09-b2a2-47df-90c9-bd2e76cac31b")
 	)
 	(embedded_fonts no)
 )

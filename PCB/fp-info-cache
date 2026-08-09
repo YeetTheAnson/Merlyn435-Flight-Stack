@@ -1,4 +1,4 @@
-26283654434350928
+26301518003296114
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104286,6 +104286,20 @@ DFN-8_L3.2-W3.1-P0.65-LS3.4-BL
 9
 9
 easyeda2kicad
+ELRS_RX TP
+
+
+0
+1
+1
+easyeda2kicad
+ELRS_TX TP
+
+
+0
+1
+1
+easyeda2kicad
 ESC Header
 JST SH series connector, SM08B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
 connector JST SH horizontal
@@ -104299,6 +104313,13 @@ FIL_2450FM07D0034T
 0
 4
 4
+easyeda2kicad
+GPS Pad
+
+
+0
+6
+6
 easyeda2kicad
 IND-SMD_L4.4-W4.2
 
@@ -104334,6 +104355,13 @@ MountingHole
 0
 0
 0
+easyeda2kicad
+Power Pad
+
+
+0
+3
+3
 easyeda2kicad
 QFN-20_L3.0-W3.0-P0.50-BL-EP1.7_EFM8BB21F16G
 
@@ -104405,12 +104433,54 @@ SOT-23-6_L2.9-W1.6-P0.95-LS2.9-BL
 6
 6
 easyeda2kicad
+SWCLK TP
+
+
+0
+1
+1
+easyeda2kicad
+SWDIO TP
+
+
+0
+1
+1
+easyeda2kicad
+SWD_BOOT TP
+
+
+0
+1
+1
+easyeda2kicad
+SWD_RST TP
+
+
+0
+1
+1
+easyeda2kicad
 TSSOP-28_L9.7-W4.4-P0.65-LS6.4-BL-EP-2
 AT7456E
 
 0
 29
 29
+easyeda2kicad
+UART3 PAD
+
+
+0
+4
+4
+easyeda2kicad
+UART5 PAD
+
+
+0
+4
+4
 easyeda2kicad
 UFL
 Molex Microcoaxial RF Connectors (MCRF), mates Hirose U.FL, (http://www.molex.com/pdm_docs/sd/734120110_sd.pdf)
