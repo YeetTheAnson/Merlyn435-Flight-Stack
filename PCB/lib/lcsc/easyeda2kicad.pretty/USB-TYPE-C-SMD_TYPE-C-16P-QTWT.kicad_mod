@@ -252,10 +252,13 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "57d2400c-c3e4-4eed-8b65-c18800b85b50")
 	)
-	(pad "13" smd rect
+	(pad "13" smd roundrect
 		(at -5.2 2.31)
 		(size 1.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.35)
+		(chamfer bottom_left)
 		(uuid "f7c4e637-605f-49f2-b5d8-2184cbeee6cc")
 	)
 	(pad "14" smd rect
@@ -264,10 +267,13 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1f2d3ed8-07a1-4ee1-85bf-4dd15867a44d")
 	)
-	(pad "14" smd rect
+	(pad "14" smd roundrect
 		(at 5.2 2.31)
 		(size 1.7 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.35)
+		(chamfer bottom_right)
 		(uuid "f89e66bf-16a5-4e0a-b9ff-b18cb207b1d1")
 	)
 	(embedded_fonts no)
