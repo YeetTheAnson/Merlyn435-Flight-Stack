@@ -3379,6 +3379,12 @@
 		(color 0 0 0 0)
 		(uuid "ef648c03-f080-4da0-b614-a194c61154df")
 	)
+	(junction
+		(at 124.46 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6823fe6-8874-476c-b954-ac499f0dde94")
+	)
 	(no_connect
 		(at 292.1 146.05)
 		(uuid "2dd8bad6-157b-4d64-b52e-fa8eab53fe67")
@@ -3503,16 +3509,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 64.77) (xy 124.46 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b84c793-7df6-46df-ba9c-4ab09ed09e97")
-	)
-	(wire
-		(pts
 			(xy 240.03 128.27) (xy 240.03 130.81)
 		)
 		(stroke
@@ -3600,16 +3596,6 @@
 			(type default)
 		)
 		(uuid "182920dc-f8fd-4dbe-bb11-614fc6daac05")
-	)
-	(wire
-		(pts
-			(xy 121.92 66.04) (xy 121.92 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19880330-93f7-42a8-a651-48bd5fd4592a")
 	)
 	(wire
 		(pts
@@ -3950,6 +3936,16 @@
 			(type default)
 		)
 		(uuid "549bd1ac-0b20-4c9f-966e-09c7de662437")
+	)
+	(wire
+		(pts
+			(xy 121.92 64.77) (xy 121.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c9aef2-adfb-4552-97ac-a25fdf7b4bc5")
 	)
 	(wire
 		(pts
@@ -4603,6 +4599,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 64.77) (xy 124.46 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3575f4-24c6-46ad-8eec-c04d71d1cce2")
+	)
+	(wire
+		(pts
 			(xy 107.95 71.12) (xy 107.95 69.85)
 		)
 		(stroke
@@ -4633,7 +4639,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 111.76) (xy 320.04 111.76)
+			(xy 314.96 111.76) (xy 321.31 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4770,6 +4776,16 @@
 			(type default)
 		)
 		(uuid "fcbd145a-0722-44cb-af68-d55c44cb6507")
+	)
+	(wire
+		(pts
+			(xy 121.92 64.77) (xy 124.46 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5c2a46-d0e7-4b48-a9be-0ff2c21d1d4f")
 	)
 	(wire
 		(pts
@@ -6261,7 +6277,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "10"
 			(at 216.916 71.12 90)
 			(effects
 				(font
@@ -6279,7 +6295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0402, 22r"
+		(property "Datasheet" "0402, 10r"
 			(at 215.9 71.12 0)
 			(effects
 				(font
@@ -6297,7 +6313,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25092"
+		(property "LCSC Part" "C25077"
 			(at 215.9 71.12 0)
 			(effects
 				(font
@@ -6703,7 +6719,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 121.92 68.58 0)
+		(at 127 67.31 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6712,7 +6728,7 @@
 		(dnp no)
 		(uuid "2f684d4a-a926-4531-a837-7d23233019ff")
 		(property "Reference" "C2"
-			(at 127.254 68.58 0)
+			(at 132.334 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +6737,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 127.254 70.358 0)
+			(at 132.334 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +6746,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 121.92 68.58 0)
+			(at 127 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +6755,7 @@
 			)
 		)
 		(property "Datasheet" "0603, 10uF, 25v"
-			(at 121.92 68.58 0)
+			(at 127 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6748,7 +6764,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 121.92 68.58 0)
+			(at 127 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6757,7 +6773,7 @@
 			)
 		)
 		(property "LCSC Part" "C96446"
-			(at 121.92 68.58 0)
+			(at 127 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7509,7 +7525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "10"
 			(at 216.916 96.52 90)
 			(effects
 				(font
@@ -7527,7 +7543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0402, 22r"
+		(property "Datasheet" "0402, 10r"
 			(at 215.9 96.52 0)
 			(effects
 				(font
@@ -7545,7 +7561,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25092"
+		(property "LCSC Part" "C25077"
 			(at 215.9 96.52 0)
 			(effects
 				(font
@@ -7797,7 +7813,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "10"
 			(at 257.556 71.12 90)
 			(effects
 				(font
@@ -7815,7 +7831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0402, 22r"
+		(property "Datasheet" "0402, 10r"
 			(at 256.54 71.12 0)
 			(effects
 				(font
@@ -7833,7 +7849,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25092"
+		(property "LCSC Part" "C25077"
 			(at 256.54 71.12 0)
 			(effects
 				(font
@@ -7955,7 +7971,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "10"
 			(at 176.276 96.52 90)
 			(effects
 				(font
@@ -7973,7 +7989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0402, 22r"
+		(property "Datasheet" "0402, 10r"
 			(at 175.26 96.52 0)
 			(effects
 				(font
@@ -7991,7 +8007,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25092"
+		(property "LCSC Part" "C25077"
 			(at 175.26 96.52 0)
 			(effects
 				(font
@@ -8280,7 +8296,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 320.04 111.76 180)
+		(at 321.31 111.76 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8288,7 +8305,7 @@
 		(dnp no)
 		(uuid "876a9e38-da86-455a-9a15-98a0176c9813")
 		(property "Reference" "#PWR013"
-			(at 320.04 105.41 0)
+			(at 321.31 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8297,7 +8314,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 320.04 108.204 0)
+			(at 321.31 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8305,7 +8322,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 320.04 111.76 0)
+			(at 321.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8314,7 +8331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 111.76 0)
+			(at 321.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8323,7 +8340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 320.04 111.76 0)
+			(at 321.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8706,7 +8723,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "10"
 			(at 257.556 96.52 90)
 			(effects
 				(font
@@ -8724,7 +8741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0402, 22r"
+		(property "Datasheet" "0402, 10r"
 			(at 256.54 96.52 0)
 			(effects
 				(font
@@ -8742,7 +8759,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25092"
+		(property "LCSC Part" "C25077"
 			(at 256.54 96.52 0)
 			(effects
 				(font
@@ -8785,7 +8802,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 118.618 59.944 0)
+			(at 117.602 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9532,6 +9549,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 127 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b139b848-8e3a-4ca9-a220-32cd9330a066")
+		(property "Reference" "#PWR026"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "222003ef-7410-4e18-a2ed-ed4f1f416cd8")
+		)
+		(instances
+			(project "MerlynESC"
+				(path "/c59754d8-0226-4494-a77d-f4c2074bdb76"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 205.74 125.73 0)
 		(mirror y)
@@ -10213,6 +10295,7 @@
 	(symbol
 		(lib_id "power:+BATT")
 		(at 124.46 63.5 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10229,7 +10312,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 124.968 59.944 0)
+			(at 125.476 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10883,7 +10966,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "10"
 			(at 176.276 71.12 90)
 			(effects
 				(font
@@ -10901,7 +10984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "0402, 22r"
+		(property "Datasheet" "0402, 10r"
 			(at 175.26 71.12 0)
 			(effects
 				(font
@@ -10919,7 +11002,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25092"
+		(property "LCSC Part" "C25077"
 			(at 175.26 71.12 0)
 			(effects
 				(font
