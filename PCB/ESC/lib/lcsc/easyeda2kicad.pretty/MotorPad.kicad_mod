@@ -1,0 +1,85 @@
+(footprint "MotorPad"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "JST SH series connector, SM08B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator")
+	(tags "connector JST SH horizontal")
+	(property "Reference" "REF**"
+		(at 0 -3.98 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "df2e3877-7f2a-4d1d-85ac-571eaa23effa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MotorPad"
+		(at 0 3.98 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f746771a-f836-4002-8489-4182699dfdbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "196f0a7c-7a8d-4a80-9eee-1cb57ecc3f2e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19fd7bc0-387d-4ff4-b7cd-8db0853b3574")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" thru_hole rect
+		(at -2.9 0)
+		(size 2 2)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "4850f77b-4e13-48f6-9050-b4f4650f8a0a")
+	)
+	(pad "2" thru_hole rect
+		(at 0 0)
+		(size 2 2)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "15be180e-9660-453f-a911-d6df8554bf76")
+	)
+	(pad "3" thru_hole rect
+		(at 2.9 0)
+		(size 2 2)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
+		(uuid "3cbd3345-75cf-4f66-86bb-dc2f0856b423")
+	)
+	(embedded_fonts no)
+)
