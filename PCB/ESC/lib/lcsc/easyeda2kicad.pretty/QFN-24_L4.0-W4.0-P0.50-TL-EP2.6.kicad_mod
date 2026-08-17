@@ -144,7 +144,7 @@
 	)
 	(fp_rect
 		(start -1.5 -1.5)
-		(end -0.95 1.36)
+		(end -0.65 1.36)
 		(stroke
 			(width 0)
 			(type solid)
@@ -154,8 +154,8 @@
 		(uuid "9d154537-345f-49cb-8340-49090916e338")
 	)
 	(fp_rect
-		(start -0.95 -1.5)
-		(end 1.35 -0.94)
+		(start -0.65 -1.5)
+		(end 1.35 -0.64)
 		(stroke
 			(width 0)
 			(type solid)
@@ -186,6 +186,18 @@
 		(fill yes)
 		(layer "F.SilkS")
 		(uuid "2cc8ecf1-a21d-4f00-ae9c-627957e194bb")
+	)
+	(fp_poly
+		(pts
+			(xy -1.4 -0.743978) (xy -0.682675 -1.461303) (xy -0.081634 -0.860263) (xy -0.798959 -0.142937)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "14029610-5260-4633-ad9b-6210cb292df5")
 	)
 	(fp_circle
 		(center -2.27 -1.26)
@@ -393,10 +405,13 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4e108db2-4568-4a97-b85f-e5ad120c13bb")
 	)
-	(pad "25" smd rect
-		(at 0.2 0.21)
-		(size 2.3 2.3)
+	(pad "25" smd roundrect
+		(at 0.35 0.36)
+		(size 2 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.17)
+		(chamfer top_left)
 		(uuid "053684a6-3495-4315-a84c-4c0d17469397")
 	)
 	(embedded_fonts no)
