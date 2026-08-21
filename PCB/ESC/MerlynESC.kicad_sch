@@ -25005,7 +25005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 147.32 337.82 0)
 			(effects
 				(font
@@ -27407,7 +27407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 378.46 167.64 0)
 			(effects
 				(font
@@ -27616,7 +27616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 368.3 337.82 0)
 			(effects
 				(font
@@ -32614,7 +32614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 157.48 167.64 0)
 			(effects
 				(font
@@ -33201,7 +33201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 147.32 167.64 0)
 			(effects
 				(font
@@ -33267,7 +33267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 157.48 337.82 0)
 			(effects
 				(font
@@ -33529,7 +33529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 378.46 337.82 0)
 			(effects
 				(font
@@ -33660,7 +33660,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "easyeda2kicad:TestPoint"
 			(at 368.3 167.64 0)
 			(effects
 				(font
