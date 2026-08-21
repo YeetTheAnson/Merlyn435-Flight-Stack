@@ -1,0 +1,45 @@
+Category,Item Name,Description,Link,Vendor,Quantity,Total Price (USD)
+Flight Controller,TAXM8M4RDBCCT2T,8 MHz crystal,https://www.lcsc.com/product-detail/C400090.html,LCSC,5,0.73
+Flight Controller,7D027000I01,27 MHz crystal,https://www.lcsc.com/product-detail/C648950.html,LCSC,5,0.47
+Flight Controller,XL7EL89CMI-111YLC-26M,26 MHz crystal,https://www.lcsc.com/product-detail/C19272774.html,LCSC,5,0.44
+Flight Controller,XC21M4-52.000-F10NNHPL,52 MHz crystal,https://www.lcsc.com/product-detail/C3034316.html,LCSC,5,0.68
+Flight Controller,TYPE-C 16P QTWT,USB C Connector SMT,https://www.lcsc.com/product-detail/C5187472.html,LCSC,5,0.43
+Flight Controller,LMR51420YDDCR,Buck converter,https://www.lcsc.com/product-detail/C5383002.html,LCSC,2,1.96
+Flight Controller,AT7456E,Video overlay OSD,https://www.lcsc.com/product-detail/C82351.html,LCSC,2,7.49
+Flight Controller,SPX3819M5-L-3-3/TR,3.3v LDO regulator,https://www.lcsc.com/product-detail/C9055.html,LCSC,10,2.19
+Flight Controller,APH0420T4R7M,3.7uH inductor,https://www.lcsc.com/product-detail/C5349668.html,LCSC,5,0.45
+Flight Controller,USBLC6-2SC6,USB ESD protection,https://www.lcsc.com/product-detail/C7519.html,LCSC,5,0.92
+Flight Controller,BWU.FL-IPEX1,U.FL connector,https://www.lcsc.com/product-detail/C5137195.html,LCSC,10,0.42
+Flight Controller,0402WGF1202TCE,12k 0402 resistor,https://www.lcsc.com/product-detail/C25752.html,LCSC,100,0.69
+Flight Controller,0402WGF1501TCE,1.5k 0402 resistor,https://www.lcsc.com/product-detail/C25867.html,LCSC,100,0.50
+Flight Controller+ESC,CL10A106MA8NRNC,10uF 0603 capacitor,https://www.lcsc.com/product-detail/C96446.html,LCSC,20,1.60
+Flight Controller,1206B475K500NT,4.7uH 1206 capacitor,https://www.lcsc.com/product-detail/C29823.html,LCSC,10,2.72
+Flight Controller,W25Q128JVSIQ,16Mb flash chip,https://www.lcsc.com/product-detail/C97521.html,LCSC,2,5.22
+Flight Controller,HC-1.0-8PWT,JST SH 8p connector,https://www.lcsc.com/product-detail/C2845367.html,LCSC,5,0.67
+Flight Controller,PCB,PCB,-,JLCPCB,1,7.00
+Flight Controller,PCB Assembly,PCB Assembly,-,JLCPCB,1,61.83
+ESC,GRM21BR61H106KE43L,10uF 0805 capacitor,https://www.lcsc.com/product-detail/C440198.html,LCSC,5,1.25
+ESC,CL31A106KBHNNNE,10uF 1206 capacitor,https://www.lcsc.com/product-detail/C13585.html,LCSC,20,5.63
+ESC,CL05B104KB54PNC,0.1uF 0402 capacitor,https://www.lcsc.com/product-detail/C307331.html,LCSC,100,0.93
+ESC,CL05A105KA5NQNC,1uF 0402 capacitor,https://www.lcsc.com/product-detail/C52923.html,LCSC,50,0.61
+ESC,1SS400CMT2R,SOD923 diode,https://www.lcsc.com/product-detail/C510311.html,LCSC,40,1.02
+ESC,JMSL0302AU,N channel MOSFET,https://www.lcsc.com/product-detail/C2890409.html,LCSC,50,11.46
+ESC,0402WGF1002TCE,10k 0402 resistor,https://www.lcsc.com/product-detail/C25744.html,LCSC,100,0.19
+ESC,0402WGF4701TCE,4.7k 0402 resistor,https://www.lcsc.com/product-detail/C25900.html,LCSC,100,0.50
+ESC,0402WGF1001TCE,1k 0402 resistor,https://www.lcsc.com/product-detail/C11702.html,LCSC,100,0.67
+ESC,0402WGF100JTCE,10R 0402 resistor,https://www.lcsc.com/product-detail/C25077.html,LCSC,100,0.58
+ESC,HoYLR2512E-3W-0.5mR-1%,0.5m 2512 shunt resistor,https://www.lcsc.com/product-detail/C5375456.html,LCSC,10,0.60
+ESC,0402WGF3902TCE,39k 0402 resistor,https://www.lcsc.com/product-detail/C25783.html,LCSC,100,0.69
+ESC,HT75C0-1,12v LDO regulator,https://www.lcsc.com/product-detail/C64551.html,LCSC,5,0.99
+ESC,HT7533-1,3.3v LDO regulator,https://www.lcsc.com/product-detail/C14289.html,LCSC,5,0.71
+ESC,EFM8BB21F16G-C-QFN20R,ESC MCU,https://www.lcsc.com/product-detail/C80713.html,LCSC,8,10.01
+ESC,EG6288,Gate driver,https://www.lcsc.com/product-detail/C55058511.html,LCSC,10,3.06
+ESC,INA139NA/3K,Current sensor,https://www.lcsc.com/product-detail/C129947.html,LCSC,2,1.12
+ESC,PCB,PCB,-,JCLPCB,1,2.00
+Flight Controller + ESC,Shipping,JLCPCB,-,JLCPCB,1,6.49
+Flight Controller + ESC,Shipping,LCSC,-,LCSC,1,4.92
+,,,,,,
+Flight Controller Total,96.41,,,,,
+ESC Total,42.02,,,,,
+Shipping Total,11.41,,,,,
+Grand Total,149.84,,,,,
