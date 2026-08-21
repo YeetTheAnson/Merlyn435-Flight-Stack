@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.16 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "7fd59de3-bfce-4913-bb54-3aba6cd5ba77")
 		(effects
 			(font
@@ -52,26 +53,6 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -0.107836 -0.36)
-		(end 0.107836 -0.36)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "727b53c2-78a4-415b-a556-f69dfda78659")
-	)
-	(fp_line
-		(start -0.107836 0.36)
-		(end 0.107836 0.36)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "5055d4d4-0f8f-4333-b141-6bbbe84f3008")
-	)
 	(fp_line
 		(start -0.755 0.39)
 		(end -0.755 -0.39)

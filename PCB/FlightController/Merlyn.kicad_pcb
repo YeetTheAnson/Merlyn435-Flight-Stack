@@ -4426,7 +4426,7 @@
 		(path "/6bdbe448-e7ff-48b4-8835-23446f6da582")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "R"
 			(at -3.6 0.8 0)
 			(unlocked yes)
@@ -4678,7 +4678,7 @@
 		(path "/84b39d6f-9958-4c13-8aa3-7df884f0d720")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 1.35 -1.15)
 			(end 1.35 1.15)
@@ -5167,7 +5167,7 @@
 		(path "/269f9cd3-5ad8-47f9-b4ad-a8ee1fa12282")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_circle
 			(center -4.85 3.2)
 			(end -4.82 3.2)
@@ -5593,7 +5593,7 @@
 		(path "/651d5494-40ca-4b99-a2fa-3acc5378e187")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start 5.11 -1.785)
 			(end 4.06 -1.785)
@@ -7526,7 +7526,7 @@
 		(path "/b8897d06-b3d8-462d-8a14-54610ccc4ab6")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start 2.03 1.68)
 			(end -2.03 1.68)
@@ -8767,7 +8767,7 @@
 		(path "/8788530b-cb3c-41db-ae53-85492133b6d0")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "R"
 			(at -0.4 0.8 0)
 			(unlocked yes)
@@ -9397,7 +9397,7 @@
 		(path "/4d9b3162-d436-4195-ba31-aa7c05bd87fe")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start 1.53 0.89)
 			(end 1.53 -0.89)
@@ -11836,7 +11836,7 @@
 		(path "/6aca9fa8-6dc5-4262-ac3a-631a1439edbc")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "5"
 			(at -2 -1.6 90)
 			(unlocked yes)
@@ -15393,7 +15393,7 @@
 		(path "/9cf461fd-bac2-4af9-8c1a-92850527224c")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start 1.35 -1.15)
 			(end 1.35 1.15)
@@ -16172,7 +16172,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "unconnected-(U1-PA15-Pad38)")
 			(pinfunction "PA15")
-			(pintype "unspecified")
+			(pintype "unspecified+no_connect")
 			(uuid "b954e994-c28b-4e18-8113-b95145d0882b")
 		)
 		(pad "39" smd rect
@@ -17088,7 +17088,7 @@
 		(path "/8a659011-1618-4ab2-8265-8e7d45054752")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.65 0.15)
 			(end -1.65 1.45)
@@ -19917,7 +19917,7 @@
 		(path "/19e4ab01-b4ae-4a93-92e3-eb77f00ca0b0")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "-"
 			(at 0.325 1.7 0)
 			(unlocked yes)
@@ -20045,7 +20045,7 @@
 		(path "/ba075240-1c09-4e2b-9450-6b5472b147a2")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "3"
 			(at 1.175 1.575 180)
 			(unlocked yes)
@@ -20428,7 +20428,7 @@
 		(path "/6c4272a3-55f8-4970-a000-e7f0f6835e0e")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start -0.711252 -0.91)
 			(end 0.711252 -0.91)
@@ -20635,7 +20635,7 @@
 		(path "/deeb9471-dac1-47d6-b993-a22886d8d46f")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "RX"
 			(at -1.7 -0.450001 45)
 			(unlocked yes)
@@ -20724,7 +20724,7 @@
 		(path "/2abb27f2-5b03-44da-8d35-4e969c13b89c")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "TX"
 			(at -1.525 -0.45 0)
 			(unlocked yes)
@@ -20849,7 +20849,7 @@
 		(path "/c316fd00-3b0d-4cc7-a170-b93d4767b846")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start 1.53 -0.85)
 			(end 1.53 0.85)
@@ -21323,7 +21323,7 @@
 		(path "/f5c3aee5-32d9-492f-b374-e380996e370b")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "C"
 			(at -1.2 -0.4 0)
 			(unlocked yes)
@@ -21412,7 +21412,7 @@
 		(path "/6cb00bd4-0aeb-4731-a06b-d99ece969773")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "D"
 			(at -1.2 -0.4 0)
 			(unlocked yes)
@@ -21513,7 +21513,7 @@
 		(path "/4a5e26e1-e62d-4264-a7d1-3fd926aa660a")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -21720,7 +21720,7 @@
 		(path "/c14a4b34-3b9e-45aa-bdde-f8b03075a0bf")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "B"
 			(at -1.2 -0.4 0)
 			(unlocked yes)
@@ -21807,7 +21807,7 @@
 		(path "/c86338f8-1382-411d-b116-a6120b88a7f4")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start 0.76 1.56)
 			(end 0.76 0.56)
@@ -22176,7 +22176,7 @@
 		(path "/bea9ad3d-883d-4a9e-9451-53fe2ba8e13e")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start -2.64 2.18)
 			(end 2.64 2.18)
@@ -22717,7 +22717,7 @@
 		(path "/5301378c-d844-4e23-be46-028801e6edaf")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start -1.54 -0.89)
 			(end -1.54 0.89)
@@ -22953,7 +22953,7 @@
 		(path "/cda3a2a2-3085-4e5a-8695-2c4bf9dbbb16")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "T"
 			(at 2.09 -1.57 0)
 			(unlocked yes)
@@ -23164,7 +23164,7 @@
 		(path "/83f3a8fe-25da-4b77-a086-7793a9cae27f")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start 2.28 2.18)
 			(end 2.28 1.21)
@@ -23374,7 +23374,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" "C2765186"
+		(property "LCSC Part" "C5187472"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -23390,7 +23390,7 @@
 		(path "/94ab2a98-b978-4c2e-aa64-776bb5fe3b40")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start -4.46 1.06)
 			(end -4.46 -1.33)
@@ -23730,7 +23730,7 @@
 		(path "/1d12d273-67b3-4ae9-8563-326886b65c01")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "R"
 			(at -1.2 -0.4 315)
 			(unlocked yes)
@@ -24084,7 +24084,7 @@
 		(path "/55793074-eaca-4f4f-a5a1-bad33972911f")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_line
 			(start -2.36 1)
 			(end 1.65 1)
@@ -24592,7 +24592,7 @@
 		(path "/91218299-e3cd-4e04-9c95-6a0b9c5bb573")
 		(sheetname "/")
 		(sheetfile "Merlyn.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "+"
 			(at -3.35 1.7 270)
 			(unlocked yes)

@@ -15241,7 +15241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "easyeda2kicad:D_SOD-923"
 			(at 553.72 234.95 90)
 			(effects
 				(font
@@ -17819,7 +17819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "easyeda2kicad:D_SOD-923"
 			(at 332.74 64.77 90)
 			(effects
 				(font
@@ -18505,7 +18505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "easyeda2kicad:D_SOD-923"
 			(at 332.74 242.57 90)
 			(effects
 				(font
@@ -18891,7 +18891,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "easyeda2kicad:C_0603_1608Metric"
 			(at 118.11 68.58 0)
 			(effects
 				(font
@@ -19442,7 +19442,7 @@
 		(at 62.23 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3854cc32-db42-489b-a062-64e6ab91b96d")
@@ -19724,7 +19724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "easyeda2kicad:D_SOD-923"
 			(at 553.72 250.19 90)
 			(effects
 				(font
@@ -20091,7 +20091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "easyeda2kicad:D_SOD-923"
 			(at 332.74 72.39 90)
 			(effects
 				(font
@@ -20264,7 +20264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "easyeda2kicad:D_SOD-923"
 			(at 332.74 80.01 90)
 			(effects
 				(font
@@ -21344,7 +21344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "easyeda2kicad:D_SOD-923"
 			(at 553.72 80.01 90)
 			(effects
 				(font
@@ -21438,7 +21438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "easyeda2kicad:D_SOD-923"
 			(at 332.74 234.95 90)
 			(effects
 				(font
@@ -22174,7 +22174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "easyeda2kicad:D_SOD-923"
 			(at 553.72 242.57 90)
 			(effects
 				(font
@@ -22271,7 +22271,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "easyeda2kicad:C_1206_3216Metric"
 			(at 111.76 167.64 0)
 			(effects
 				(font
@@ -22831,7 +22831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "easyeda2kicad:D_SOD-923"
 			(at 553.72 64.77 90)
 			(effects
 				(font
@@ -22925,7 +22925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "easyeda2kicad:D_SOD-923"
 			(at 332.74 250.19 90)
 			(effects
 				(font
@@ -24983,7 +24983,7 @@
 		(at 147.32 337.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8ca62b16-9f0a-49b4-a33d-26d30465f8fe")
@@ -25694,7 +25694,7 @@
 		(at 412.75 171.45 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9741c5d6-0483-4cb8-ad8c-5c96cd42de50")
@@ -26801,7 +26801,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "easyeda2kicad:C_1206_3216Metric"
 			(at 88.9 167.64 0)
 			(effects
 				(font
@@ -26922,7 +26922,7 @@
 		(at 412.75 341.63 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a3a9378a-d58d-494a-be2c-5d9a5c3b99d3")
@@ -27385,7 +27385,7 @@
 		(at 378.46 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a7d00c37-83e0-4f8a-aaf8-13c631da9bae")
@@ -27594,7 +27594,7 @@
 		(at 368.3 337.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a95ee509-30ea-4c93-941c-dc6e272ec0f2")
@@ -27683,7 +27683,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "easyeda2kicad:C_1206_3216Metric"
 			(at 81.28 167.64 0)
 			(effects
 				(font
@@ -29020,7 +29020,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "easyeda2kicad:C_0603_1608Metric"
 			(at 114.3 39.37 0)
 			(effects
 				(font
@@ -29099,7 +29099,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "easyeda2kicad:C_0805_2012Metric"
 			(at 99.06 68.58 0)
 			(effects
 				(font
@@ -30161,7 +30161,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "easyeda2kicad:C_1206_3216Metric"
 			(at 73.66 167.64 0)
 			(effects
 				(font
@@ -30477,7 +30477,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "easyeda2kicad:C_1206_3216Metric"
 			(at 104.14 167.64 0)
 			(effects
 				(font
@@ -30553,7 +30553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
+		(property "Footprint" "easyeda2kicad:D_SOD-923"
 			(at 553.72 72.39 90)
 			(effects
 				(font
@@ -31162,7 +31162,7 @@
 		(at 191.77 341.63 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "de5cafa9-2c47-400e-aa63-9ccdebb9ae72")
@@ -32520,7 +32520,7 @@
 		(at 191.77 171.45 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ed4644b3-570f-4526-85e8-0a94f494588e")
@@ -32592,7 +32592,7 @@
 		(at 157.48 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "edd7788a-10c9-40ee-832a-34edd10db329")
@@ -33179,7 +33179,7 @@
 		(at 147.32 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f62e0b0d-4c98-4910-966f-f0cbcded86ca")
@@ -33245,7 +33245,7 @@
 		(at 157.48 337.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f6f7aecb-1463-4284-86a9-8235dddcb515")
@@ -33334,7 +33334,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "easyeda2kicad:C_1206_3216Metric"
 			(at 96.52 167.64 0)
 			(effects
 				(font
@@ -33507,7 +33507,7 @@
 		(at 378.46 337.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f8c12246-af9a-4d9a-8296-a07967cf10c4")
@@ -33638,7 +33638,7 @@
 		(at 368.3 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f9a3dbf3-fe75-4b0c-bb65-8e855c7bce9e")
