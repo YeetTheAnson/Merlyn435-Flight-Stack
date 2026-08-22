@@ -36,10 +36,27 @@ ESC,EFM8BB21F16G-C-QFN20R,ESC MCU,https://www.lcsc.com/product-detail/C80713.htm
 ESC,EG6288,Gate driver,https://www.lcsc.com/product-detail/C55058511.html,LCSC,10,3.06
 ESC,INA139NA/3K,Current sensor,https://www.lcsc.com/product-detail/C129947.html,LCSC,2,1.12
 ESC,PCB,PCB,-,JCLPCB,1,2.00
-Flight Controller + ESC,Shipping,JLCPCB,-,JLCPCB,1,6.49
+Flight Controller + ESC,Shipping,EPOST shipping,-,JLCPCB,1,6.49
 Flight Controller + ESC,Shipping,LCSC,-,LCSC,1,4.92
+Drone Parts,RATE 1505 4300kv motor,Motors,https://click.world.taobao.com/_b.RcEIyQ,TaoBao,4,28.75
+Drone Parts,RATE S30 Pro frame,Carbon fiber frame,https://click.world.taobao.com/_b.6cEImS,TaoBao,1,23.06
+Drone Parts,RATE analog antenna,Right hand circular polarized 5.8Ghz antenna,https://click.world.taobao.com/_b.ecEImU,TaoBao,1,5.80
+Drone Parts,RATE 90mm ELRS antenna,Linear polarized dipole 2.4Ghz antenna,https://click.world.taobao.com/_b.3cEIO4,TaoBao,1,0.95
+Drone Parts,RATE beeper/buzzer,Active piezo buzzer,https://click.world.taobao.com/_b.VcEIzD,TaoBao,1,0.64
+Drone Parts,HQPROP T3x3x3,2 Pairs 3 inch propeller,https://click.world.taobao.com/_b.0cEJ5z,TaoBao,1,1.88
+Drone Parts,RATE XT30 + Cable,Connector and cable,https://click.world.taobao.com/_b.acEJqe,TaoBao,1,0.64
+Drone Parts,RATE Rubber Grommets,10pcs soft mounting rubber grommet,https://click.world.taobao.com/_b.KcEIzp,TaoBao,1,0.48
+Drone Parts,RATE M10 GPS,Nano size gps module with battery,https://click.world.taobao.com/_b.tcEIm7,TaoBao,1,8.80
+Drone Parts,470uF low ESR capacitor,Capacitor for MOSFET protection,https://click.world.taobao.com/_b.ecEuQ7,TaoBao,1,0.42
+Drone Parts,Cyclone 1W VTX,5.8Ghz analog video transmitter,https://click.world.taobao.com/_b.zcEIzr,TaoBao,1,14.00
+Drone Parts,TaoBao Tax,Fees,-,TaoBao,1,10.05
+Drone Parts,TaoBao Shipping,Shipping,-,TaoBao,1,4.05
+Drone Parts,CADDX Ratel 2 + Tax,19mm Analog camera,https://www.aliexpress.com/item/1005009304280288.html,AliExpress,1,28.64
+Drone Parts,AliExpress Shipping,Shipping,-,AliExpress,1,0.99
+Drone Parts,GNB LiHV 4s 850mAh,4s LiHV battery,https://shopee.com.my/Gaoneng-GNB-15.2HV-850mAh-120C-4S-Lipo-Battery-with-XT30-Plug-GNB850-120-4S-i.92575144.18545880487,Shopee,1,20.10
 ,,,,,,
 Flight Controller Total,96.41,,,,,
 ESC Total,42.02,,,,,
-Shipping Total,11.41,,,,,
-Grand Total,149.84,,,,,
+Shipping Total,26.50,,,,,
+Drone Parts Total,134.16,,,,,
+Grand Total,299.09,,,,,
