@@ -112,6 +112,4 @@
 #define DEFAULT_VOLTAGE_METER_SOURCE    VOLTAGE_METER_ADC
 #define DEFAULT_DSHOT_BITBANG           DSHOT_BITBANG_ON
 #define DEFAULT_DSHOT_BURST             DSHOT_DMAR_AUTO
-
-// Setting default ports for your layout logic
 #define SERIALRX_UART                   SERIAL_PORT_USART2
