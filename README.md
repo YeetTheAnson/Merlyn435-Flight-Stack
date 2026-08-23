@@ -1,20 +1,18 @@
 # Merlyn435 Flight Stack
 
 ## Introduction
-
-![image](assets/Merlyn435.png)
-![image](assets/MerlynESC.png)
-![image](assets/20mm.png)
-
-
 This is my custom Merlyn435 Flight Stack! This project was made as a successor to my previous Merlyn411 flight controller due to several limitations. It lacked in its processing power and free UART ports.Its mounting pattern was also an unconventional at 25mm, making it incompatible to mount with any ESCs on the market. By upgrading to the AT32F435@288MHz, the new Merlyn435 easily handles 8k8 PID loop and advanced autonomous flights with 3 spare UART ports.
 
 The Merlyn435 flight controller is designed for a wide battery voltage ranging from 2 to 6 cells. This flight controller can also be mounted in various sizes of drones from 2" to as big as it can get
 
 It is a 3 in 1 flight controller which offers features such as an integrated 2.4GHz ExpressLRS receiver and an OSD to overlay telemetry directlly in the video feed. Furthermore, it has 16MB of flash memory for lackbox logging to assist in flight tuning.
 
-The MerlynESC is a 4 in 1 ESC which also operates from 2 to 6s battery voltages. It's maximum continuous current is 40A per motor, and peaks up to 55A for a maximum duration of 10 seconds.
+The MerlynESC is a 4 in 1 ESC which runs on Bluejay firmware and also operates from 2 to 6s battery voltages. It's maximum continuous current is 40A per motor, and peaks up to 55A for a maximum duration of 10 seconds.
 
+![image](assets/Merlyn435.png)
+![image](assets/MerlynESC.png)
+![image](assets/20mm.png)
+![image](assets/ESCSpecs.png)
 ![image](assets/Comparison.png)
 
 | Feature | Merlyn435 | Merlyn411 |
@@ -53,7 +51,6 @@ The MerlynESC is a 4 in 1 ESC which also operates from 2 to 6s battery voltages.
 * **Voltage range:** 2-6s LiPo / Li-ion / LiHv
 * **Power Supply:** HT75C0-1 12V LDO + HT7533-1 3.3V LDO
 * **Mounting:** M2 20x20mm
-![image](assets/ESCSpecs.png)
 
 
 ## Pinout
@@ -197,8 +194,8 @@ While this project is mainly focused on the Merlyn435 + MerlynESC flight stack, 
 ### Why 3D Printing the Frame is Not Recommended
 I strongly advise against 3D printing your frame. On my previous build, a 100 percent infill PETG frame shattered from a very light fall. More importantly, 3D printed plastics flex and resonate excessively which causes gyro noise and deteriorated flight performance. 
 <img src="assets/shattered.jpg" width="400">
-<video src="assets/crash.mp4" width="400">
-<video src="assets/crash.mp4" controls width="100%"></video>
+
+https://github.com/user-attachments/assets/90db9ad2-082e-437a-b4b3-71ebe933a74a
 
 ----
 
