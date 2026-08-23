@@ -193,6 +193,7 @@ While this project is mainly focused on the Merlyn435 + MerlynESC flight stack, 
 
 ### Why 3D Printing the Frame is Not Recommended
 I strongly advise against 3D printing your frame. On my previous build, a 100 percent infill PETG frame shattered from a very light fall. More importantly, 3D printed plastics flex and resonate excessively which causes gyro noise and deteriorated flight performance. 
+
 <img src="assets/shattered.jpg" width="400">
 
 https://github.com/user-attachments/assets/90db9ad2-082e-437a-b4b3-71ebe933a74a
