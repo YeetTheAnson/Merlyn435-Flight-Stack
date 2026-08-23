@@ -1,7 +1,7 @@
 # Merlyn435 Flight Stack
 
 ## Introduction
-This is my custom Merlyn435 Flight Stack! This project was made as a successor to my previous Merlyn411 flight controller due to several limitations. It lacked in its processing power and free UART ports.Its mounting pattern was also an unconventional at 25mm, making it incompatible to mount with any ESCs on the market. By upgrading to the AT32F435@288MHz, the new Merlyn435 easily handles 8k8 PID loop and advanced autonomous flights with 3 spare UART ports.
+This is my custom Merlyn435 Flight Stack! This project was made as a successor to my previous Merlyn411 flight controller due to several limitations. It lacked in its processing power and free UART ports. Its mounting pattern was also an unconventional at 25mm, making its mounting incompatible with any ESCs on the market. By upgrading to the AT32F435@288MHz, the new Merlyn435 easily handles 8k8 PID loop and advanced autonomous flights with 3 spare UART ports.
 
 The Merlyn435 flight controller is designed for a wide battery voltage ranging from 2 to 6 cells. This flight controller can also be mounted in various sizes of drones from 2" to as big as it can get
 
