@@ -170,7 +170,7 @@ If the ESP8285 is bricked or passthrough fails, you can flash it directly using 
 
 
 ## ESC Flashing
-<img src="assets/C2Prog.png" width="400">
+<img src="assets/C2Prog.png" width="550">
 
 The MerlynESC is a 4 in 1 ESC that runs Bluejay firmware target `A`, MCU type `H`, `30`x20.4ns deadtime and `48`KHz PWM frequency. The firmware files can be found in [/firmware/binaries](https://github.com/YeetTheAnson/Merlyn435-Flight-Stack/blob/main/firmware/binaries/(Bluejay)A_H_30_48_v0.21.0.hex) or the offical Bluejay repository. You can flash the EFM8BB21 chips using the C2 programming pads with a makeshift arduino programmer.
 
