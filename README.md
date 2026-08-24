@@ -224,7 +224,7 @@ Note: The prices in USD are converted as of 22 August 2026 and may fluctuate. Pr
 | Flight Controller | W25Q128JVSIQ | 16MB flash chip | [link](https://www.lcsc.com/product-detail/C97521.html) | LCSC | 2 | 5.22 |
 | Flight Controller | HC-1.0-8PWT | JST SH 8p connector | [link](https://www.lcsc.com/product-detail/C2845367.html) | LCSC | 5 | 0.67 |
 | Flight Controller | PCB | PCB | - | JLCPCB | 1 | 7.00 |
-| Flight Controller | PCB Assembly | PCB Assembly | - | JLCPCB | 1 | 61.83 |
+| Flight Controller | Partial PCB Assembly | Partial PCB Assembly | - | JLCPCB | 1 | 61.83 |
 | ESC | GRM21BR61H106KE43L | 10uF 0805 capacitor | [link](https://www.lcsc.com/product-detail/C440198.html) | LCSC | 5 | 1.25 |
 | ESC | CL31A106KBHNNNE | 10uF 1206 capacitor | [link](https://www.lcsc.com/product-detail/C13585.html) | LCSC | 20 | 5.63 |
 | ESC | CL05B104KB54PNC | 0.1uF 0402 capacitor | [link](https://www.lcsc.com/product-detail/C307331.html) | LCSC | 100 | 0.93 |
