@@ -3,7 +3,7 @@
 ## Introduction
 This is my custom Merlyn435 Flight Stack! This project was made as a successor to my previous Merlyn411 flight controller due to several limitations. It lacked in its processing power and free UART ports. Its mounting pattern was also unconventional at 25mm, making its mounting incompatible with any ESCs on the market. By upgrading to the AT32F435@288MHz, the new Merlyn435 easily handles 8k8 PID loop and advanced autonomous flights with 3 spare UART ports.
 
-The Merlyn435 also upgrades the IMU from the MPU6500 to the LSM6DSK320X, which provides significantly better vibration noise rejection at \(3.8\ \mathrm{mdps}/\sqrt{\mathrm{Hz}}\) compared to \(10\ \mathrm{mdps}/\sqrt{\mathrm{Hz}}\). This results in cooler motors and more stable flights with fewer gyro filters, preventing issues such as mid throttle oscillation and flyaways.
+The Merlyn435 also upgrades the IMU from the MPU6500 to the LSM6DSK320X, which provides significantly better vibration noise rejection at $3.8\ \mathrm{mdps}/\sqrt{\mathrm{Hz}}$ compared to $10\ \mathrm{mdps}/\sqrt{\mathrm{Hz}}$. This results in cooler motors and more stable flights with fewer gyro filters, preventing issues such as mid throttle oscillation and flyaways.
 
 The Merlyn435 flight controller is designed for a wide battery voltage ranging from 2 to 6 cells. This flight controller can also be mounted in various sizes of drones from 2" to as big as it can get.
 
