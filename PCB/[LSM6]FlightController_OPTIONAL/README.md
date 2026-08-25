@@ -1,0 +1,1 @@
+Almomst identical to the MPU6500 version of the board, but the footprint is changed to support LSM6 (LSM6DSK320X/LSM6DSV16X/LSM6DSO/LSM6DSOX) series gyro which has superior noise rejection compared to MPU6500 in high vibration environments. 

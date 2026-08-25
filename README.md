@@ -3,6 +3,8 @@
 ## Introduction
 This is my custom Merlyn435 Flight Stack! This project was made as a successor to my previous Merlyn411 flight controller due to several limitations. It lacked in its processing power and free UART ports. Its mounting pattern was also unconventional at 25mm, making its mounting incompatible with any ESCs on the market. By upgrading to the AT32F435@288MHz, the new Merlyn435 easily handles 8k8 PID loop and advanced autonomous flights with 3 spare UART ports.
 
+The Merlyn435 also upgrades the IMU from the MPU6500 to the LSM6DSK320X, which provides significantly better vibration noise rejection at \(3.8\ \mathrm{mdps}/\sqrt{\mathrm{Hz}}\) compared to \(10\ \mathrm{mdps}/\sqrt{\mathrm{Hz}}\). This results in cooler motors and more stable flights with fewer gyro filters, preventing issues such as mid throttle oscillation and flyaways.
+
 The Merlyn435 flight controller is designed for a wide battery voltage ranging from 2 to 6 cells. This flight controller can also be mounted in various sizes of drones from 2" to as big as it can get.
 
 It is a 3 in 1 flight controller which offers features such as an integrated 2.4GHz ExpressLRS receiver and an OSD to overlay telemetry directly in the video feed. Furthermore, it has 16MB of flash memory for blackbox logging to assist in flight tuning.
@@ -20,7 +22,7 @@ The MerlynESC is a 4 in 1 ESC which runs on Bluejay firmware and also operates f
 | **MCU** | AT32F435CGU7 @ 288MHz | STM32F411CEU6 @ 100MHz |
 | **MCU Flash Size** | 1024kB | 512kB |
 | **UART Interfaces** | 5 Hardware UART (2 internal, 3 free) | 2 Hardware UART + 1 SoftSerial (1 internal, 1 softserial, 1 free) |
-| **IMU** | MPU6500 (SPI) | MPU6500 (SPI) |
+| **IMU** | LSM6DSK320X (SPI) | MPU6500 (SPI) |
 | **Barometer** | BMP388 (I2C) | None |
 | **OSD** | AT7456E (SPI) | AT7456E (SPI) |
 | **Blackbox Flash** | 16MB (SPI) | 16MB (SPI) |
@@ -34,7 +36,7 @@ The MerlynESC is a 4 in 1 ESC which runs on Bluejay firmware and also operates f
 
 ### Merlyn435
 * **MCU:** AT32F435CGU7
-* **IMU:** MPU6500 @ SPI1
+* **IMU:** LSM6DSK320X @ SPI1
 * **Barometer:** BMP388 @ 0x76
 * **OSD:** AT7456E @ SPI2
 * **Blackbox:** W25Q128JV 16MB Flash @ SPI2
@@ -128,6 +130,8 @@ The MerlynESC is a 4 in 1 ESC which runs on Bluejay firmware and also operates f
 ## Flight Controller Firmware
 Because the Merlyn435 is a custom hardware layout with no existing Betaflight targets, you must compile Betaflight using the custom target definitions in [/firmware/source/betaflight](https://github.com/YeetTheAnson/Merlyn435-Flight-Stack/tree/main/firmware/source/betaflight) or use the pre compiled firmware of your preferred Betaflight version in [/firmware/binaries](https://github.com/YeetTheAnson/Merlyn435-Flight-Stack/tree/main/firmware/binaries)
 
+> [!IMPORTANT]
+> The LSM6DSK320X was officially added in **v2026.6**. The same **Betaflight** configuration can be used to compile your binary for both **2025.12** and **2026.6** without any issues. However, **2025.12 does not support or detect the LSM6DSK320X**, so the **LSM6DSK320X** IMU will only function when running **2026.6 or later**.
 
 ### How to build the firmware (Betaflight)
 1. Clone the [betaflight repository](https://github.com/betaflight/betaflight) using any UNIX terminal (use MSYS2 MINGW64 on Windows) and enter the directory
@@ -223,8 +227,9 @@ Note: The prices in USD are converted as of 22 August 2026 and may fluctuate. Pr
 | Flight Controller | 1206B475K500NT | 4.7uF 1206 capacitor | [link](https://www.lcsc.com/product-detail/C29823.html) | LCSC | 10 | 2.72 |
 | Flight Controller | W25Q128JVSIQ | 16MB flash chip | [link](https://www.lcsc.com/product-detail/C97521.html) | LCSC | 2 | 5.22 |
 | Flight Controller | HC-1.0-8PWT | JST SH 8p connector | [link](https://www.lcsc.com/product-detail/C2845367.html) | LCSC | 5 | 0.67 |
+| Flight Controller | LSM6DSK320XTR | LSM6 series IMU | [link](https://www.lcsc.com/product-detail/C53025794.html) | LCSC | 1 | 9.18 |
 | Flight Controller | PCB | PCB | - | JLCPCB | 1 | 7.00 |
-| Flight Controller | Partial PCB Assembly | Partial PCB Assembly | - | JLCPCB | 1 | 61.83 |
+| Flight Controller | Partial PCB Assembly | Partial PCB Assembly | - | JLCPCB | 1 | 47.91 |
 | ESC | GRM21BR61H106KE43L | 10uF 0805 capacitor | [link](https://www.lcsc.com/product-detail/C440198.html) | LCSC | 5 | 1.25 |
 | ESC | CL31A106KBHNNNE | 10uF 1206 capacitor | [link](https://www.lcsc.com/product-detail/C13585.html) | LCSC | 20 | 5.63 |
 | ESC | CL05B104KB54PNC | 0.1uF 0402 capacitor | [link](https://www.lcsc.com/product-detail/C307331.html) | LCSC | 100 | 0.93 |
@@ -262,9 +267,8 @@ Note: The prices in USD are converted as of 22 August 2026 and may fluctuate. Pr
 | Drone Parts | AliExpress Shipping | Shipping | - | AliExpress | 1 | 0.99 |
 | Drone Parts | GNB LiHV 4S 850mAh | 4S LiHV battery | [link](https://shopee.com.my/Gaoneng-GNB-15.2HV-850mAh-120C-4S-Lipo-Battery-with-XT30-Plug-GNB850-120-4S-i.92575144.18545880487) | Shopee | 1 | 20.10 |
 
-
-- **Flight Controller Total:** \$96.41
+- **Flight Controller Total:** \$91.67
 - **ESC Total:** \$42.02
 - **Shipping Total:** \$26.50
 - **Drone Parts Total:** \$134.16 
-### **Grand Total:** \$299.09
+### **Grand Total:** \$294.35

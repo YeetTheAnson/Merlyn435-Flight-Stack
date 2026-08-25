@@ -21,12 +21,16 @@
 #define SPI1_SCK_PIN            PA5
 #define SPI1_MISO_PIN           PA6
 #define SPI1_MOSI_PIN           PA7
-#define SPI1_NSS_PIN            PA4 // Required by AT32 SPI driver
-
+#define SPI1_NSS_PIN            PA4
 #define USE_IMU_MPU6500
 #define IMU_MPU6500_ALIGN       CW0_DEG
 #define MPU6500_SPI_BUS         BUS_SPI1
 #define MPU6500_CS_PIN          SPI1_NSS_PIN
+
+#define USE_IMU_LSM6DXX
+#define IMU_LSM6DXX_ALIGN       CW0_DEG
+#define LSM6DXX_SPI_BUS         BUS_SPI1
+#define LSM6DXX_CS_PIN          SPI1_NSS_PIN
 
 // ---- SPI 2 (OSD & FLASH) ----
 #define USE_SPI_DEVICE_2
@@ -100,5 +104,4 @@
 #define USE_DSHOT
 #define USE_ESC_SENSOR          
 #define USE_CRASH_FLIP          
-#define USE_RPM_FILTER          
-
+#define USE_RPM_FILTER
