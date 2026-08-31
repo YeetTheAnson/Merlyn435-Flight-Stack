@@ -145,8 +145,9 @@ Because the Merlyn435 is a custom hardware layout with no existing Betaflight ta
 2. Switch to the latest iNav stable release. E.g. `git checkout 9.1.0`
 3. Create two directories. One named `build` in the root directory and another named `MERLYN435` in /src/main/target
 4. Copy `CMakeLists.txt`, `target.c` and `target.h` into the `MERLYN435` directory from [/firmware/source/inav](https://github.com/YeetTheAnson/Merlyn435-Flight-Stack/tree/main/firmware/source/inav)
-5. Enter `cmake ..` (install any required GCC toolchain if asked)
-6. Enter `make MERLYN435` and the `.hex` file should appear in `/build`
+5. Enter the `build` directory
+6. Enter `cmake ..` (install any required GCC toolchain if asked)
+7. Enter `make MERLYN435` and the `.hex` file should appear in `/build`
 
 ### Flight Controller Flashing
 1. **Via USB DFU Mode (Recommended):** Short the SWD `B` test point to 3.3v and plug in the USB C cable. Open [Betaflight Configurator](https://app.betaflight.com) (applicable for iNav), select your compiled local `.hex` file, and click Flash Firmware.
@@ -196,7 +197,7 @@ While this project is mainly focused on the Merlyn435 + MerlynESC flight stack, 
 *   **Battery:** GNB 4S 850mAh 120C LiHV
 
 ### Why 3D Printing the Frame is Not Recommended
-I strongly advise against 3D printing your frame. On my previous build, a 100 percent infill PETG frame shattered from a very light fall. More importantly, 3D printed plastics flex and resonate excessively which causes gyro noise and deteriorated flight performance. 
+I advise against 3D printing your frame. On my previous build, a 100 percent infill PETG frame shattered from a very light fall. More importantly, 3D printed frames flex and resonate which causes excessive gyro noise and leads to deteriorated flight performance. 
 
 <img src="assets/shattered.jpg" width="400">
 
