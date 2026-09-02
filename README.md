@@ -7,7 +7,7 @@ The Merlyn435 also upgrades the IMU from the MPU6500 to the LSM6DSK320X, which p
 
 The Merlyn435 flight controller is designed for a wide battery voltage ranging from 2 to 6 cells. This flight controller can also be mounted in various sizes of drones from 2" to as big as it can get.
 
-It is a 3 in 1 flight controller which offers features such as an integrated 2.4GHz ExpressLRS receiver and an OSD to overlay telemetry directly in the video feed. Furthermore, it has 16MB of flash memory for blackbox logging to assist in flight tuning.
+It is a 3 in 1 flight controller offers features such as an integrated 2.4GHz ExpressLRS receiver and an OSD to overlay telemetry directly in the video feed. Furthermore, it has 16MB of flash memory for blackbox logging to assist in flight tuning.
 
 The MerlynESC is a 4 in 1 ESC which runs on Bluejay firmware and also operates from 2 to 6s battery voltages. Its maximum continuous current is 40A per motor and peaks up to 55A for a maximum duration of 10 seconds.
 
