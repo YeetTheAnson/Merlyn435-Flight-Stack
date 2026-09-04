@@ -212,12 +212,12 @@ Note: The prices in USD are converted as of 22 August 2026 and may fluctuate. Pr
 | Category | Item Name | Description | Link | Vendor | Quantity | Total Price (USD) |
 |---|---|---|---|---|---:|---:|
 | Flight Controller | TAXM8M4RDBCCT2T | 8 MHz crystal | [link](https://www.lcsc.com/product-detail/C400090.html) | LCSC | 5 | 0.73 |
-| Flight Controller | 7D027000I01 | 27 MHz crystal | [link](https://www.lcsc.com/product-detail/C648950.html) | LCSC | 5 | 0.47 |
+| Flight Controller | 7D027000I01 | 27 MHz crystal | [link](https://www.lcsc.com/product-detail/C648952.html) | LCSC | 5 | 0.50 |
 | Flight Controller | XL7EL89CMI-111YLC-26M | 26 MHz crystal | [link](https://www.lcsc.com/product-detail/C19272774.html) | LCSC | 5 | 0.44 |
 | Flight Controller | XC21M4-52.000-F10NNHPL | 52 MHz crystal | [link](https://www.lcsc.com/product-detail/C3034316.html) | LCSC | 5 | 0.68 |
-| Flight Controller | TYPE-C 16P QTWT | USB C Connector SMT | [link](https://www.lcsc.com/product-detail/C5187472.html) | LCSC | 5 | 0.43 |
+| Flight Controller | TYPE-C 16P QTWT | USB C Connector SMT | [link](https://www.lcsc.com/product-detail/C5187472.html) | LCSC | 10 | 0.75 |
 | Flight Controller | LMR51420YDDCR | Buck converter | [link](https://www.lcsc.com/product-detail/C5383002.html) | LCSC | 2 | 1.96 |
-| Flight Controller | AT7456E | Video overlay OSD | [link](https://www.lcsc.com/product-detail/C82351.html) | LCSC | 2 | 7.49 |
+| Flight Controller | AT7456E | Video overlay OSD | [link](https://www.lcsc.com/product-detail/C82351.html) | LCSC | 2 (Two because there's a deal on LCSC that lets me get both for free) | 7.49 |
 | Flight Controller | SPX3819M5-L-3-3/TR | 3.3v LDO regulator | [link](https://www.lcsc.com/product-detail/C9055.html) | LCSC | 10 | 2.19 |
 | Flight Controller | APH0420T4R7M | 4.7uH inductor | [link](https://www.lcsc.com/product-detail/C5349668.html) | LCSC | 5 | 0.45 |
 | Flight Controller | USBLC6-2SC6 | USB ESD protection | [link](https://www.lcsc.com/product-detail/C7519.html) | LCSC | 5 | 0.92 |
@@ -226,7 +226,7 @@ Note: The prices in USD are converted as of 22 August 2026 and may fluctuate. Pr
 | Flight Controller | 0402WGF1501TCE | 1.5k 0402 resistor | [link](https://www.lcsc.com/product-detail/C25867.html) | LCSC | 100 | 0.50 |
 | Flight Controller+ESC | CL10A106MA8NRNC | 10uF 0603 capacitor | [link](https://www.lcsc.com/product-detail/C96446.html) | LCSC | 20 | 1.60 |
 | Flight Controller | 1206B475K500NT | 4.7uF 1206 capacitor | [link](https://www.lcsc.com/product-detail/C29823.html) | LCSC | 10 | 2.72 |
-| Flight Controller | W25Q128JVSIQ | 16MB flash chip | [link](https://www.lcsc.com/product-detail/C97521.html) | LCSC | 2 | 5.22 |
+| Flight Controller | W25Q128JVSIQ | 16MB flash chip | [link](https://www.lcsc.com/product-detail/C97521.html) | LCSC | 1 | 2.62 |
 | Flight Controller | HC-1.0-8PWT | JST SH 8p connector | [link](https://www.lcsc.com/product-detail/C2845367.html) | LCSC | 5 | 0.67 |
 | Flight Controller | LSM6DSK320XTR | LSM6 series IMU | [link](https://www.lcsc.com/product-detail/C53025794.html) | LCSC | 1 | 9.18 |
 | Flight Controller | PCB | PCB | - | JLCPCB | 1 | 7.00 |
@@ -236,7 +236,7 @@ Note: The prices in USD are converted as of 22 August 2026 and may fluctuate. Pr
 | ESC | CL05B104KB54PNC | 0.1uF 0402 capacitor | [link](https://www.lcsc.com/product-detail/C307331.html) | LCSC | 100 | 0.93 |
 | ESC | CL05A105KA5NQNC | 1uF 0402 capacitor | [link](https://www.lcsc.com/product-detail/C52923.html) | LCSC | 50 | 0.61 |
 | ESC | 1SS400CMT2R | SOD923 diode | [link](https://www.lcsc.com/product-detail/C510311.html) | LCSC | 40 | 1.02 |
-| ESC | JMSL0302AU | N channel MOSFET | [link](https://www.lcsc.com/product-detail/C2890409.html) | LCSC | 50 | 11.46 |
+| ESC | JMSL0302AU | N channel MOSFET | [link](https://www.lcsc.com/product-detail/C2890409.html) | LCSC | 25 | 7.07 |
 | ESC | 0402WGF1002TCE | 10k 0402 resistor | [link](https://www.lcsc.com/product-detail/C25744.html) | LCSC | 100 | 0.19 |
 | ESC | 0402WGF4701TCE | 4.7k 0402 resistor | [link](https://www.lcsc.com/product-detail/C25900.html) | LCSC | 100 | 0.50 |
 | ESC | 0402WGF1001TCE | 1k 0402 resistor | [link](https://www.lcsc.com/product-detail/C11702.html) | LCSC | 100 | 0.67 |
@@ -245,7 +245,7 @@ Note: The prices in USD are converted as of 22 August 2026 and may fluctuate. Pr
 | ESC | 0402WGF3902TCE | 39k 0402 resistor | [link](https://www.lcsc.com/product-detail/C25783.html) | LCSC | 100 | 0.69 |
 | ESC | HT75C0-1 | 12v LDO regulator | [link](https://www.lcsc.com/product-detail/C64551.html) | LCSC | 5 | 0.99 |
 | ESC | HT7533-1 | 3.3v LDO regulator | [link](https://www.lcsc.com/product-detail/C14289.html) | LCSC | 5 | 0.71 |
-| ESC | EFM8BB21F16G-C-QFN20R | ESC MCU | [link](https://www.lcsc.com/product-detail/C80713.html) | LCSC | 8 | 10.01 |
+| ESC | EFM8BB21F16G-C-QFN20R | ESC MCU | [link](https://www.lcsc.com/product-detail/C80713.html) | LCSC | 5 | 6.33 |
 | ESC | EG6288 | Gate driver | [link](https://www.lcsc.com/product-detail/C55058511.html) | LCSC | 10 | 3.06 |
 | ESC | INA139NA/3K | Current sensor | [link](https://www.lcsc.com/product-detail/C129947.html) | LCSC | 2 | 1.12 |
 | ESC | PCB | PCB | - | JLCPCB | 1 | 2.00 |
@@ -268,8 +268,8 @@ Note: The prices in USD are converted as of 22 August 2026 and may fluctuate. Pr
 | Drone Parts | AliExpress Shipping | Shipping | - | AliExpress | 1 | 0.99 |
 | Drone Parts | GNB LiHV 4S 850mAh | 4S LiHV battery | [link](https://shopee.com.my/Gaoneng-GNB-15.2HV-850mAh-120C-4S-Lipo-Battery-with-XT30-Plug-GNB850-120-4S-i.92575144.18545880487) | Shopee | 1 | 20.10 |
 
-- **Flight Controller Total:** \$91.67
-- **ESC Total:** \$42.02
-- **Shipping Total:** \$26.50
-- **Drone Parts Total:** \$134.16 
-### **Grand Total:** \$294.35
+- **Flight Controller Total:** $89.42
+- **ESC Total:** $33.95
+- **Shipping Total:** $26.50
+- **Drone Parts Total:** $134.16
+### **Grand Total:** $284.03
