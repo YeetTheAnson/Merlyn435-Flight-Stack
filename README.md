@@ -188,13 +188,23 @@ The MerlynESC is a 4 in 1 ESC that runs Bluejay firmware target `A`, MCU type `H
 While this project is mainly focused on the Merlyn435 + MerlynESC flight stack, I also designed a high performance 3 inch freestyle FPV drone. If you want to recreate the full build, below is the component breakdown:
 
 ### Component List
-*   **Frame:** RATE S30 Pro carbon fiber frame
-*   **Motors:** RATE 1505 4300KV
-*   **Propellers:** HQProp 3x3x3
-*   **Camera:** Caddx Ratel 2 analog camera
-*   **VTX:** Cyclone 1W analog video transmitter
-*   **GPS:** RATE M10 GPS module
-*   **Battery:** GNB 4S 850mAh 120C LiHV
+* **Frame:** RATE S30 Pro carbon fiber frame
+* **Motors:** RATE 1505 4300KV
+* **Propellers:** HQProp 3x3x3
+* **Camera:** Caddx Ratel 2 analog camera
+* **VTX:** Cyclone 1W analog video transmitter
+* **GPS:** RATE M10 GPS module
+* **Battery:** GNB 4S 850mAh 120C LiHV
+* **Fasteners (If using CF frame):** Included with frame kit
+* **Fasteners (If using 3d printed frame):**
+  * 6x M3 20mm Female to Female Brass Standoffs 
+  * 12x M3 6mm Screws
+  * 4x M2 Nuts
+  * 4x M2 20mm Screws
+  * 8x M2 10mm Screws
+  * 16x M2 6mm Screws
+  * 4x M2 6mm Screws
+  * 8x M2 6mm Self Tapping Screws
 
 ### Why 3D Printing the Frame is Not Recommended
 I advise against 3D printing your frame. On my previous build, a 100 percent infill PETG frame shattered from a very light fall. More importantly, 3D printed frames flex and resonate which causes excessive gyro noise and leads to deteriorated flight performance. 
@@ -202,6 +212,57 @@ I advise against 3D printing your frame. On my previous build, a 100 percent inf
 <img src="assets/shattered.jpg" width="400">
 
 https://github.com/user-attachments/assets/90db9ad2-082e-437a-b4b3-71ebe933a74a
+
+
+
+
+### Assembly Instructions
+The Merlyn435 and ESC uses standard 20x20mm mounting hole distance.
+
+#### Stack Mounting
+1. Place 4x M2 Nuts into the recesses in the bottom frame plate.
+<img src="assets/step1.png" width="300">
+2. Push rubber grommets into the flight controller and ESC mounting holes.
+<img src="assets/step2.png" width="300">
+3. Push 4x M2 20mm screws through the adapter plate, through the rubber grommet, and through the bottom plate into the M2 nuts.
+<img src="assets/step3.png" width="300">
+
+
+#### VTX Mounting
+The VTX mounts to the rear of the frame.
+1. Place 4x M2 Nuts into the recesses in the bottom frame plate.
+<img src="assets/step4.png" width="300">
+2. Push rubber grommets into the VTX mounting holes.
+<img src="assets/step5.png" width="300">
+3. Push 4x M2 10mm screws through rubber grommets, down through the bottom plate, and into the M2 nuts.
+<img src="assets/step6.png" width="300">
+
+
+#### Motor Mounting
+1. Mount the four 1505 4300KV motors to the arms using 16x M2 6mm screws (4 per motor). Ensure the screws do not touch the motor windings inside the bell.
+<img src="assets/step7.png" width="300">
+2. Mount the HQPROP 3x3x3 propellers. Pay attention to motor rotation directions (depending on your betaflight configuration, it could either be prop in or prop out). Fasten each prop with 2x M2 6mm screws.
+<img src="assets/step8.png" width="300">
+
+#### Remaining Components
+1. Mount the analog FPV camera to the cage using 2x M2 6mm screws.
+<img src="assets/step9.png" width="300">
+2. Mount the camera cage to the bottom frame using 2x M2 6mm Self Tapping screws.
+<img src="assets/step10a.png" width="300">
+<img src="assets/step10b.png" width="300">
+3. Mount the 6x M3 20mm Female to Female Brass Standoffs and secure with 6x M3 6mm screws to the bottom plate.
+<img src="assets/step11a.png" width="300">
+<img src="assets/step11b.png" width="300">
+4. Press fit the antenna holder to the brass standoffs, then insert the antenna and connect the antenna to the VTX.
+<img src="assets/step12.png" width="300">
+5. Press fit the GPS module into the bracket.
+<img src="assets/step13.png" width="300">
+6. Mount the top plate and secure with 6x M3 6mm screws.
+<img src="assets/step14.png" width="300">
+7. Mount the GPS module and bracket underneath the top plate and secure with 4x M2 6mm Self Tapping screws.
+<img src="assets/step15.png" width="300">
+8. Insert 2x M2 6mm Self Tapping screws to secure the top plate to the camera cage.
+<img src="assets/step16.png" width="300">
 
 ----
 
